@@ -28,7 +28,7 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest", "pytest-cov", "coverage-conditional-plugin"]
 docs = ["sphinx", "sphinx-autobuild"]
-dev = ["ruff"]
+dev = ["ruff", "pyright"]
 templates = ["mako"]
 postgres = [
     "psycopg2; implementation_name=='cpython'",
